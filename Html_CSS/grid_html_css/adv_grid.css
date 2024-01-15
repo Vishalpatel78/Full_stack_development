@@ -1,0 +1,50 @@
+.container{
+    height:700px;
+    background-color: beige;
+    border:2px solid black;
+
+    display:grid;
+
+    /* grid-template-rows: 30px  150px 400px 30px;
+    grid-template-columns: 500px; */
+
+    /* grid-auto-rows:minmax( 100px,auto);
+    grid-template-columns: repeat(4,1fr); */
+
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    /* gap:5px; */
+/* 
+    justify-content: baseline;
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: last baseline; */
+
+    /* align-items: baseline;
+    align-items: center;
+    align-items: end; */
+
+    /* align-content: space-evenly;
+    justify-items: center; */
+
+    /* place-content: center;
+    place-items: center; */
+    /* place-content: end; */
+
+}
+
+.box{
+    background-color: aqua;
+    border:2px solid black;
+    /* justify-self: center;
+    justify-self: end;
+    justify-self: baseline; */
+}
+
+#a{
+    /* justify-self: start;
+    justify-self: center;
+    align-self: center; */
+}
+ 

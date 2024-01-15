@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(241, 246, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: rgb(134, 11, 11);
+    border:1px solid black;
+    height:50px;
+    width:100px;
+    color:azure;
+    display:flex;
+
+    /* /* text-align: center; */
+    justify-content: center;
+    align-items: center;  
+
+    /* transition:transform; */
+
+
+}
+.box:hover{
+
+   animation:vishal;
+   animation-duration: 1.5s;
+   animation-delay: 10ms;
+   animation-direction: normal;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes vishal {
+    from{
+        background-color: rgb(134, 11, 11);
+    }
+    to{
+        background-color: black;
+    }
+    
+}
